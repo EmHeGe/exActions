@@ -12,7 +12,7 @@ final class CalculadoraTest extends TestCase
 
     public function testResta()
     {
-        $calc = new Calculadora(3,5);
+        $calc = new Calculadora(5,3);
         $this->assertEquals(2, $calc->resta());
     }
 }
